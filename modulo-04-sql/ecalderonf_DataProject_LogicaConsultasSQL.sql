@@ -7,6 +7,51 @@
 
 -- 1. Crea el esquema de la BBDD.
 
+/*
+		1. Preparar el entorno en DBeaver
+			Abrir DBeaver.
+
+			En el panel izquierdo, crea una nueva conexión:
+
+			Database → New Connection → PostgreSQL.
+
+			Introduce host, puerto, usuario y contraseña.
+
+			Una vez conectado, expandir la conexión y asegurar de que tienes acceso al esquema public .
+
+		2. Crear el esquema (si no existe)
+			Si se quiere usar un esquema distinto a public:
+
+			Clic derecho sobre la base de datos → Create → Schema.
+
+			Asigna un nombre (por ejemplo, sakila o videoclub).
+
+		3. Crear la Base de Datos (BBDD)
+			Desde la interfaz
+			Clic derecho sobre la conexión → Create → Database.
+		
+			Poner un nombre (por ejemplo: db_movieStore).
+		
+			Acepta.
+
+		4. Ejecutar el SQL (el fichero)
+
+			En DBeaver, abre un nuevo SQL Editor:
+
+			Clic derecho en la conexión → SQL Editor → New SQL Script.
+
+			Copia y pega el contenido.
+
+			Ejecuta el script completo con Ctrl + Enter o el botón ▶️.
+
+				Esto creará:
+
+			Lenguaje PL/pgSQL
+
+			Secuencias, Tablas, Constraints, Índices, etc
+
+*/
+
 -- 2. Muestra los nombres de todas las películas con una clasificación por edades de ‘Rʼ.
 SELECT title 
 FROM film
