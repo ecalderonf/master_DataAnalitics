@@ -4,6 +4,8 @@
 
 Este documento resume el trabajo realizado para practicar y resolver consultas SQL sobre la base de datos **db_movieStore**, un modelo similar al clásico *Sakila* utilizado para aprender SQL relacional.
 
+Fichero de consultas: ecalderonf_DataProject_LogicaConsultasSQL.sql
+
 ---
 
 ## 🎯 Objetivo del proyecto
@@ -80,6 +82,7 @@ Estas tablas están relacionadas mediante claves primarias y foráneas que permi
 
 ## 📌 Resultado final
 
+Fichero de consultas: ecalderonf_DataProject_LogicaConsultasSQL.sql
 El proyecto permitió:
 
 - Comprender a fondo la estructura de una base de datos relacional realista.
