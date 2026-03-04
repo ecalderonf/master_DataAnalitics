@@ -1,13 +1,93 @@
 # DataProject: LógicaConsultasSQL
 
-## Requisitos del Github
-    Tu repositorio tiene que constar, al menos, de los siguientes archivos/carpetas:
+# 📘 README — Consultas SQL para la Base de Datos **db_movieStore**
 
-    ● Archivo README.md, que recoja los pasos seguidos durante el proyecto y el informe de tú análisis.
-    ● Un esquema de la BBDD que te proporcionamos
-    ● Archivo SQL con las consultas resueltas (Cada consulta debe estar identificada con su número y su enunciado como comentario)
+Este documento resume el trabajo realizado para practicar y resolver consultas SQL sobre la base de datos **db_movieStore**, un modelo similar al clásico *Sakila* utilizado para aprender SQL relacional.
 
-## Consultas
+---
+
+## 🎯 Objetivo del proyecto
+
+El propósito fue desarrollar y ejecutar una serie de consultas SQL que abarcan distintos niveles de complejidad, desde operaciones básicas de selección y filtrado hasta el uso de:
+
+- **JOINs** (INNER, LEFT, CROSS)
+- **CTEs (Common Table Expressions)**
+- **Subconsultas**
+- **Funciones de agregación**
+- **Vistas**
+- **Agrupaciones y filtros avanzados**
+
+Estas consultas permiten explorar y comprender la estructura de la base de datos, así como las relaciones entre sus tablas principales: *film*, *actor*, *customer*, *rental*, *inventory*, *category*, entre otras.
+
+---
+
+<img src="ecalderonf_db_movieStore.png" alt="db_movieStore" width="600">
+
+## 🧪 Consultas realizadas
+
+A lo largo del ejercicio resolvimos más de 60 consultas SQL, entre ellas:
+
+- Películas alquiladas por un cliente específico.
+- Actores que han participado en películas de una categoría concreta.
+- Películas con duración similar a otra usando CTEs.
+- Clientes que han alquilado un número mínimo de películas distintas.
+- Conteo de alquileres por categoría mediante CTEs.
+- Creación de vistas para análisis por año.
+- Generación de combinaciones entre empleados y tiendas.
+- Identificación de actores que **no** han participado en ciertas categorías.
+- Cálculo de días de alquiler y filtrado por duración.
+
+Cada consulta fue diseñada para reforzar conceptos clave de SQL y buenas prácticas de modelado y consulta.
+
+---
+
+## 🏗️ Preparación del entorno en PostgreSQL y DBeaver
+
+Para ejecutar las consultas fue necesario:
+
+1. **Crear la conexión** a PostgreSQL desde DBeaver.  
+2. **Crear la base de datos** donde se cargaría el esquema.  
+3. **Crear el esquema** (o usar *public*).  
+4. **Configurar el search_path** si se usó un esquema personalizado.  
+5. **Ejecutar el script SQL** del dump para generar:
+   - Secuencias  
+   - Tablas  
+   - Relaciones  
+   - Índices  
+   - Comentarios  
+6. **Crear tablas adicionales** del modelo E/R si no estaban en el dump.  
+7. **Verificar la estructura** y realizar consultas de prueba.
+
+---
+
+## 📂 Estructura general de la base de datos
+
+La base de datos **db_movieStore** incluye entidades como:
+
+- **Películas** (`film`)
+- **Actores** (`actor`)
+- **Categorías** (`category`)
+- **Clientes** (`customer`)
+- **Inventario** (`inventory`)
+- **Alquileres** (`rental`)
+- **Tiendas** (`store`)
+- **Empleados** (`staff`)
+- **Direcciones, ciudades y países**
+
+Estas tablas están relacionadas mediante claves primarias y foráneas que permiten consultas complejas y análisis detallados.
+
+---
+
+## 📌 Resultado final
+
+El proyecto permitió:
+
+- Comprender a fondo la estructura de una base de datos relacional realista.
+- Practicar consultas SQL avanzadas.
+- Aplicar CTEs, vistas, joins y subconsultas en escenarios prácticos.
+- Preparar y gestionar una base de datos completa en PostgreSQL usando DBeaver.
+
+Este README sirve como referencia del trabajo realizado y como guía para futuras ampliaciones o ejercicios adicionales.
 
 1. Crea el esquema de la BBDD.
 
