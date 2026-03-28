@@ -1,4 +1,5 @@
 import random
+from functools import reduce
 
 # PROYECTO LÓGICA: Katas de Python
 
@@ -117,7 +118,7 @@ def dividir_numeros():
     except ZeroDivisionError:
         print("Error: No se puede dividir entre cero.")
 
-dividir_numeros()
+# ToDo dividir_numeros()
 
 '''9. Escribe una función que tome una lista de nombres de mascotas como parámetro y devuelva una nueva lista 
 excluyendo ciertas mascotas prohibidas en España. La lista de mascotas a excluir es ["Mapache", "Tigre", 
@@ -161,3 +162,149 @@ def calcular_promedio(numeros):
 lst4 = [random.randint(1, 10) for _ in range(5)]
 print(calcular_promedio(lst4))   # 6.0
 print(calcular_promedio([]))          # Error: La lista está vacía.
+
+
+''' 11. Escribe un programa que pida al usuario que introduzca su edad. Si el usuario ingresa un valor no numérico o un 
+valor fuera del rango esperado (por ejemplo, menor que 0 o mayor que 120, maneja las excepciones 
+adecuadamente. '''
+
+try:
+    # ToDo edad = input("Introduce tu edad: ")
+    # ToDo edad = int(edad)
+
+    edad = random.randint(0, 150)
+
+    if edad < 0 or edad > 120:
+        raise Exception("La edad está fuera del rango permitido.")
+
+    print("Edad válida:", edad)
+
+except ValueError:
+    print("Error: Debes introducir un número entero.")
+
+except Exception as error:
+    print("Error:", error)
+
+
+'''12. Genera una función que al recibir una frase devuelva una lista con la longitud de cada palabra. Usa la función map() '''
+
+def obtener_len_palabras(frase):
+    palabras = frase.split()
+    longitudes = map(len, palabras)
+    return list(longitudes)
+
+mi_frase = 'Katas de Python'
+result = obtener_len_palabras(mi_frase)
+print(f' Frase: {mi_frase} , len: {result}')
+
+
+'''13. Genera una función la cual, para un conjunto de caracteres, devuelva una lista de tuplas con cada letra en 
+mayúsculas y minúsculas. Las letras no pueden estar repetidas .Usa la función map() '''
+
+def mayus_minus_sin_repetir(caracteres):
+    caracteres_unicos = []
+    for c in caracteres:
+        if c != ' ' and c not in caracteres_unicos:
+            caracteres_unicos.append(c)
+
+    resultado = map(str.upper, caracteres_unicos)
+    mayusculas = list(resultado)
+
+    resultado2 = map(str.lower, caracteres_unicos)
+    minusculas = list(resultado2)
+
+    tuplas = []
+    for i in range(len(caracteres_unicos)):
+        tuplas.append((mayusculas[i], minusculas[i]))
+
+    return tuplas
+
+
+print(mayus_minus_sin_repetir('Katas de Python'))
+
+
+'''14. Crea una función que retorne las palabras de una lista de palabras que comience con una letra en especifico. Usa la función filter()'''
+
+def buscar_letra_en_palabra(lista_palabras, letra):
+    palabras_filtradas = filter(lambda p: p.startswith(letra), lista_palabras)
+    return list(palabras_filtradas)
+
+palabras = ['analitics', 'power', 'calculo', 'dataset', 'dashboard']
+print(buscar_letra_en_palabra(palabras, 'd'))
+
+
+'''15. Crea una función lambda que  sume 3 a cada número de una lista dada.'''
+sumar_tres = lambda numeros: list(map(lambda n: n + 3, numeros))
+
+lst5 = [random.randint(1, 10) for _ in range(5)]
+result = sumar_tres(lst5)
+print(f'lst5: {lst5} . resultado: {result}')
+
+
+'''16. Escribe una función que tome una cadena de texto y un número entero n como parámetros y devuelva una lista de 
+todas las palabras que sean más largas que n. Usa la función filter() '''
+
+def obtener_palabras_mas_largas(frase, n):
+    palabras = frase.split()
+    palabras_filtradas = filter(str.isalpha, palabras)  # no afecta al resultado, pero permite usar filter
+    resultado = []
+
+    for palabra in palabras_filtradas:
+        if len(palabra) > n:
+            resultado.append(palabra)
+
+    return resultado
+
+texto = "Escribe una función que tome una cadena de texto"
+print(obtener_palabras_mas_largas(texto, 5))
+
+
+'''17. Crea una función que tome una lista de dígitos y devuelva el número correspondiente. Por ejemplo: 5,7,2
+corresponde al número quinientos setenta y dos 572. Usa la función reduce()'''
+def lista_a_numero(digitos):
+    return reduce(lambda acumulado, d: acumulado * 10 + d, digitos)
+
+
+lst6 = [random.randint(1, 10) for _ in range(4)]
+result = lista_a_numero(lst6)
+print(f'lst6: {lst6} . resultado: {result}')
+
+'''18. Escribe un programa en Python que cree una lista de diccionarios que contenga información de estudiantes 
+(nombre, edad, calificación) y use la función filter para extraer a los estudiantes con una calificación mayor o igual a 
+90. Usa la función filter()'''
+
+mis_estudiantes = [
+    {"nombre": "Ana", "edad": 20, "calificacion": 95},
+    {"nombre": "Luis", "edad": 22, "calificacion": 71},
+    {"nombre": "Marta", "edad": 19, "calificacion": 91},
+    {"nombre": "Carlos", "edad": 21, "calificacion": 73},
+    {"nombre": "Elena", "edad": 23, "calificacion": 89}
+]
+
+def es_sobresaliente(estudiante):
+    return estudiante["calificacion"] >= 90
+
+estudiantes_filtrados = list(filter(es_sobresaliente, mis_estudiantes))
+
+print(estudiantes_filtrados)
+
+
+'''19. Crea una función lambda que filtre los números impares de una lista dada. '''
+filtrar_impares = lambda numeros: list(filter(lambda n: n % 2 != 0, numeros))
+
+lst7 = [random.randint(1, 100) for _ in range(10)]
+result = filtrar_impares(lst7)
+print(f'lst7: {lst7} . resultado: {result}')
+
+
+'''20. Para una lista con elementos tipo integer y string obtén una nueva lista sólo con los valores int. Usa la función filter()'''
+def es_entero(valor):
+    return type(valor) is int
+
+def solo_enteros(lista):
+    return list(filter(es_entero, lista))
+
+
+mis_datos = [10, "hola", 25, "3", 7, "python", 0]
+print(solo_enteros(mis_datos))
+
