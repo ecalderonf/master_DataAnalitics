@@ -411,3 +411,141 @@ result = son_anagramas(palabra1, palabra2)
 print(f'palabra1: {palabra1}, palabra2: {palabra2} . es anagrama: {result}')
 
 
+'''31. Crea una función que solicite al usuario ingresar una lista de nombres y luego solicite un nombre para buscar en 
+esa lista. Si el nombre está en la lista, se imprime un mensaje indicando que fue encontrado, de lo contrario, se 
+lanza una excepción.'''
+def buscar_nombre():
+    try:
+        lista = input("Introduce una lista de nombres separados por comas: ")
+        nombres = [n.strip() for n in lista.split(",")]
+
+        nombre_buscar = input("Introduce el nombre a buscar: ")
+
+        if nombre_buscar in nombres:
+            print(f"El nombre '{nombre_buscar}' fue encontrado.")
+        else:
+            raise Exception(f"El nombre '{nombre_buscar}' no está en la lista.")
+
+    except Exception as e:
+        print(e)
+
+# ToDo buscar_nombre()
+
+
+'''32. Crea una función que tome un nombre completo y una lista de empleados, busque el nombre completo en la lista y 
+devuelve el puesto del empleado si está en la lista, de lo contrario, devuelve un mensaje indicando que la persona 
+no trabaja aquí.'''
+def obtener_puesto(nombre_completo, empleados):
+    for empleado in empleados:
+        if empleado["nombre"] == nombre_completo:
+            return empleado["puesto"]
+    return f"{nombre_completo} no trabaja aquí."
+
+empleados = [
+    {"nombre": 'Ricky Rubio', 'puesto': 'Analista'},
+    {"nombre": 'Willy Hernangómez', 'puesto': 'Desarrollador'},
+    {"nombre": 'Juancho Hernangómez', 'puesto': 'Gerente'}
+]
+
+print(obtener_puesto('Ricky Rubio', empleados))
+
+
+'''33. Crea una función lambda que sume elementos correspondientes de dos listas dadas.'''
+sumar_listas = lambda a, b: [x + y for x, y in zip(a, b)]
+
+lst12 = [random.randint(1, 20) for _ in range(5)]
+lst13 = [random.randint(1, 20) for _ in range(5)]
+result = sumar_listas(lst12, lst13)
+print(f'lst12: {lst12}, lst13: {lst13} . resultado: {result}')
+
+
+'''38. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.'''
+def momento_del_dia(hora):
+    if hora < 0 or hora > 23:
+        return "Hora no válida."
+
+    if hora >= 6 and hora < 12:
+        return "Es de mañana."
+    elif hora >= 12 and hora < 20:
+        return "Es de tarde."
+    else:
+        return "Es de noche."
+
+
+# Programa principal
+try:
+    # ToDo hora_usuario = int(input("Introduce la hora (0-23): "))
+    mi_num2 = random.randint(0, 24)
+    result = momento_del_dia(mi_num2)
+    print(f'Hora: {mi_num2} , por lo tanto {result}')
+except ValueError:
+    print("Debes introducir un número entero.")
+
+
+'''39. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. 
+Las reglas de calificación son:
+- 0 - 69 insuficiente
+- 70 - 79 bien
+- 80 - 89 muy bien
+- 90 - 100 excelente'''
+def calificacion_texto(nota):
+    if nota < 0 or nota > 100:
+        return "Calificación no válida."
+
+    if 0 <= nota <= 69:
+        return "insuficiente"
+    elif 70 <= nota <= 79:
+        return "bien"
+    elif 80 <= nota <= 89:
+        return "muy bien"
+    else:
+        return "excelente"
+
+# Programa principal
+try:
+    nota_usuario = int(input("Introduce la calificación (0-100): "))
+    print(calificacion_texto(nota_usuario))
+except ValueError:
+    print("Debes introducir un número entero.")
+
+
+'''40. Escribe una función que tome dos parámetros: figura (una cadena que puede ser "rectangulo" , "circulo" o "triangulo" ) y 
+datos (una tupla con los datos necesarios para calcular el área de la figura).'''
+def calcular_area(figura, datos):
+    if figura == "rectangulo":
+        if len(datos) != 2:
+            print("Para un rectángulo se necesitan base y altura.")
+            return
+        base, altura = datos
+        return base * altura
+
+    elif figura == "circulo":
+        if len(datos) != 1:
+            print("Para un círculo se necesita el radio.")
+            return
+        radio = datos[0]
+        return 3.14159 * (radio ** 2)
+
+    elif figura == "triangulo":
+        if len(datos) != 2:
+            print("Para un triángulo se necesitan base y altura.")
+            return
+        base, altura = datos
+        return (base * altura) / 2
+
+    else:
+        print("Figura no reconocida. Usa: rectangulo, circulo o triangulo.")
+
+print(calcular_area("rectangulo", (5, 3)))
+
+'''41. En este ejercicio, se te pedirá que escribas un programa en Python que utilice condicionales para determinar el 
+monto final de una compra en una tienda en línea, después de aplicar un descuento. El programa debe hacer lo siguiente:
+1. Solicita al usuario que ingrese el precio original de un artículo.
+2. Pregunta al usuario si tiene un cupón de descuento (respuesta sí o no).
+3. Si el usuario responde que sí, solicita que ingrese el valor del cupón de descuento.
+4. Aplica el descuento al precio original del artículo, siempre y cuando el valor del cupón sea válido (es decir, mayor 
+a cero). Por ejemplo, descuento de 15€. 
+5. Muestra el precio final de la compra, teniendo en cuenta el descuento aplicado o sin él. 
+6. Recuerda utilizar estructuras de control de flujo como if, elif y else para llevar a cabo estas acciones en tu 
+programa de Python.'''
+
