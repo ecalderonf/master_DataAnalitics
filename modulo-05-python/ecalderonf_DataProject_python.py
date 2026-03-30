@@ -304,7 +304,110 @@ def es_entero(valor):
 def solo_enteros(lista):
     return list(filter(es_entero, lista))
 
-
 mis_datos = [10, "hola", 25, "3", 7, "python", 0]
 print(solo_enteros(mis_datos))
+
+
+'''21. Crea una función que calcule el cubo de un número dado mediante una función lambda'''
+cubo = lambda x: x ** 3
+
+mi_num = random.randint(1, 10)
+result = cubo(mi_num)
+print(f'mi_num:{mi_num} ,cubo: {result}')
+
+
+'''22. Dada una lista numérica, obtén el producto total de los valores de dicha lista.Usa la función reduce() '''
+def producto_lista(numeros):
+    return reduce(lambda a, b: a * b, numeros)
+
+lst8 = [random.randint(1, 10) for _ in range(5)]
+result = producto_lista(lst8)
+print(f'lst8: {lst8} . resultado: {result}')
+
+
+'''23. Concatena una lista de palabras.Usa la función reduce()'''
+def concatenar_palabras(palabras):
+    return reduce(lambda a, b: a + b, palabras)
+
+print(concatenar_palabras(["Hola", " ", "mundo"]))
+
+
+'''24. Calcula la diferencia total en los valores de una lista. Usa la función reduce() '''
+def calcular_diferencia_total(numeros):
+    return reduce(lambda a, b: a - b, numeros)
+
+lst9 = [random.randint(1, 20) for _ in range(3)]
+result = calcular_diferencia_total(lst9)
+print(f'lst9: {lst9} . resultado: {result}')
+
+
+
+'''25. Crea una función que cuente el número de caracteres en una cadena de texto dada.'''
+def contar_caracteres(texto):
+    return len(texto)
+
+texto1 = 'Hola mundo'
+result = contar_caracteres(texto1)
+print(f'texto1: {texto1} . resultado: {result}')
+
+
+
+'''26. Crea una función lambda que calcule el resto de la división entre dos números dados.'''
+resto = lambda a, b: a % b
+
+dividendo1 = random.randint(10, 100)
+divisor1 = random.randint(1, 10)
+result = resto(dividendo1, divisor1)
+print(f'dividendo1: {dividendo1} , divisor: {divisor1}. resto: {result}')
+
+
+
+'''27. Crea una función que calcule el promedio de una lista de números.'''
+def obtener_promedio(numeros):
+    return sum(numeros) / len(numeros)
+
+lst10 = [random.randint(1, 100) for _ in range(5)]
+result = obtener_promedio(lst10)
+print(f'lst10: {lst10} . promedio: {result}')
+
+
+'''28. Crea una función que busque y devuelva el primer elemento duplicado en una lista dada'''
+def obtener_primer_duplicado(lista):
+    vistos = set()
+
+    for elemento in lista:
+        if elemento in vistos:
+            return elemento
+        vistos.add(elemento)
+
+    return None
+
+lst11 = [random.randint(1, 5) for _ in range(10)]
+result = obtener_primer_duplicado(lst11)
+print(f'lst11: {lst11} . resultado: {result}')
+
+
+'''29. Crea una función que convierta una variable en una cadena de texto y enmascare todos los caracteres  con el 
+carácter '#', excepto los últimos cuatro.'''
+def enmascarar_texto(valor):
+    texto = str(valor)
+    if len(texto) <= 4:
+        return texto
+    return "#" * (len(texto) - 4) + texto[-4:]
+
+mi_num2 = random.randint(10000000, 9999999999)
+result = enmascarar_texto(mi_num2)
+print(f'mi_num2: {mi_num2} . resultado: {result}')
+
+
+'''30. Crea una función que determine si dos palabras son anagramas, es decir, si están formadas por las mismas letras 
+pero en diferente orden.'''
+def son_anagramas(palabra1, palabra2):
+    return sorted(palabra1) == sorted(palabra2)
+
+palabra1 = 'toro'
+palabra2 = 'otro'
+result = son_anagramas(palabra1, palabra2)
+print(f'palabra1: {palabra1}, palabra2: {palabra2} . es anagrama: {result}')
+
 
