@@ -1,0 +1,1429 @@
+[{"Nombre":"Ambos sexos, Total, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.2}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.6}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.0}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":3.4}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":21.2}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":1.4}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":7.0}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":1.5}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":1.1}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":18.3}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":3.0}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":4.6}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":2.6}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":11.9}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":21.7}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":3.8}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":0.1}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":1.4}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":10.5}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":0.3}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":0.2}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":0.2}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":0.2}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":4.1}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":1.2}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":2.6}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":24.3}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":51.6}
+]
+}
+,{"Nombre":"Ambos sexos, Menores de 30 años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":0.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":5.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":17.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":1.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":5.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":2.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":1.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":21.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":3.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":8.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":3.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":9.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":16.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 30 a 34 años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":3.9}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":2.9}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":31.9}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":2.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":12.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":1.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":1.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":24.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":3.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":2.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":2.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":6.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":8.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 y más años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":5.5}
+]
+}
+,{"Nombre":"Hombres, Total, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Total, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.5}
+]
+}
+,{"Nombre":"Hombres, Total, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Hombres, Total, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":0.7}
+]
+}
+,{"Nombre":"Hombres, Total, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":0.3}
+]
+}
+,{"Nombre":"Hombres, Total, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":10.1}
+]
+}
+,{"Nombre":"Hombres, Total, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":3.3}
+]
+}
+,{"Nombre":"Hombres, Total, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":17.1}
+]
+}
+,{"Nombre":"Hombres, Total, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":3.0}
+]
+}
+,{"Nombre":"Hombres, Total, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":1.7}
+]
+}
+,{"Nombre":"Hombres, Total, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":14.4}
+]
+}
+,{"Nombre":"Hombres, Total, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":2.8}
+]
+}
+,{"Nombre":"Hombres, Total, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":1.3}
+]
+}
+,{"Nombre":"Hombres, Total, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":4.0}
+]
+}
+,{"Nombre":"Hombres, Total, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":21.5}
+]
+}
+,{"Nombre":"Hombres, Total, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":16.7}
+]
+}
+,{"Nombre":"Hombres, Total, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":5.8}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.3}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":6.7}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":0.6}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":2.7}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":46.1}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":41.7}
+]
+}
+,{"Nombre":"Hombres, Menores de 30 años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":0.3}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":2.5}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.7}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":0.6}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":7.1}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":2.5}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":13.6}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":5.3}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":3.0}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":14.9}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":2.5}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":3.5}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":5.3}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":19.4}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":13.2}
+]
+}
+,{"Nombre":"Hombres, De 30 a 34 años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":6.8}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.4}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.2}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.1}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":0.1}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":14.9}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":6.1}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":30.6}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":2.3}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":1.2}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":22.6}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":4.7}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":3.5}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":8.4}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":4.9}
+]
+}
+,{"Nombre":"Hombres, De 35 y más años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Hombres", "Codigo":"hombres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":8.2}
+]
+}
+,{"Nombre":"Mujeres, Total, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Total, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.0}
+]
+}
+,{"Nombre":"Mujeres, Total, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.7}
+]
+}
+,{"Nombre":"Mujeres, Total, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.2}
+]
+}
+,{"Nombre":"Mujeres, Total, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":5.4}
+]
+}
+,{"Nombre":"Mujeres, Total, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":28.5}
+]
+}
+,{"Nombre":"Mujeres, Total, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":0.1}
+]
+}
+,{"Nombre":"Mujeres, Total, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":0.3}
+]
+}
+,{"Nombre":"Mujeres, Total, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Mujeres, Total, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":0.8}
+]
+}
+,{"Nombre":"Mujeres, Total, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":20.9}
+]
+}
+,{"Nombre":"Mujeres, Total, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":3.2}
+]
+}
+,{"Nombre":"Mujeres, Total, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":6.8}
+]
+}
+,{"Nombre":"Mujeres, Total, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":1.7}
+]
+}
+,{"Nombre":"Mujeres, Total, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":5.6}
+]
+}
+,{"Nombre":"Mujeres, Total, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":24.9}
+]
+}
+,{"Nombre":"Mujeres, Total, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Total", "Codigo":"total"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":2.4}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":0.2}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":1.3}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":1.7}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":12.8}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":6.8}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":4.3}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":1.5}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":10.5}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":57.8}
+]
+}
+,{"Nombre":"Mujeres, Menores de 30 años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"Menores de 30 años", "Codigo":"menoresde30anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":1.1}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":0.8}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.6}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":8.6}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":23.6}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":0.7}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":25.2}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":4.1}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":11.9}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":1.4}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":3.4}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":18.1}
+]
+}
+,{"Nombre":"Mujeres, De 30 a 34 años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 30 a 34 años", "Codigo":"de30a34anos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Total que han realizado Ciclos formativos o enseñanzas deportivas de grado medio o Enseñanzas artísticas profesionales", "Codigo":"totalquehanrealizadociclosformativosoensenanzasdeportivasdegradomediooensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Agraria", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Agraria", "Codigo":"agraria"}
+]
+, "Data":[{"Valor":1.8}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Industrias alimentarias", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Industrias alimentarias", "Codigo":"industriasalimentarias"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Química", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Química", "Codigo":"quimica"}
+]
+, "Data":[{"Valor":1.5}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Imagen personal", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen personal", "Codigo":"imagenpersonal"}
+]
+, "Data":[{"Valor":4.8}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Sanidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Sanidad", "Codigo":"sanidad"}
+]
+, "Data":[{"Valor":43.1}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Fabricación mecánica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Fabricación mecánica", "Codigo":"fabricacionmecanica"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Electricidad y electrónica", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Electricidad y electrónica", "Codigo":"electricidadyelectronica"}
+]
+, "Data":[{"Valor":0.8}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Transporte y mantenimiento de vehículos", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Transporte y mantenimiento de vehículos", "Codigo":"transporteymantenimientodevehiculos"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Imagen y sonido", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Imagen y sonido", "Codigo":"imagenysonido"}
+]
+, "Data":[{"Valor":1.4}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Administración y gestión", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Administración y gestión", "Codigo":"administracionygestion"}
+]
+, "Data":[{"Valor":25.9}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Comercio y marketing", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Comercio y marketing", "Codigo":"comercioymarketing"}
+]
+, "Data":[{"Valor":3.1}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Servicios socioculturales y a la comunidad", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Servicios socioculturales y a la comunidad", "Codigo":"serviciossocioculturalesyalacomunidad"}
+]
+, "Data":[{"Valor":3.7}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Hostelería y turismo", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Hostelería y turismo", "Codigo":"hosteleriayturismo"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Actividades físicas y deportivas", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Actividades físicas y deportivas", "Codigo":"actividadesfisicasydeportivas"}
+]
+, "Data":[{"Valor":4.6}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Enseñanzas artísticas profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Enseñanzas artísticas profesionales", "Codigo":"ensenanzasartisticasprofesionales"}
+]
+, "Data":[{"Valor":10.3}
+]
+}
+,{"Nombre":"Mujeres, De 35 y más años, Otras familias profesionales", "MetaData":[{"T3_Variable":"sexo", "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"T3_Variable":"edad", "Nombre":"De 35 y más años", "Codigo":"de35ymasanos"}
+,{"T3_Variable":"familia profesional", "Nombre":"Otras familias profesionales", "Codigo":"otrasfamiliasprofesionales"}
+]
+, "Data":[{"Valor":3.7}
+]
+}
+]
