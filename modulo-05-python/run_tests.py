@@ -90,11 +90,11 @@ mostrar_resultado('EJERCICIO 06. factorial',params, result)
 
 '''7. Genera una función que convierta una lista de tuplas a una lista de strings. Usa la función map()'''
 
-lst_datos = [(7, 'data'), ('hola', 'python'), (True, 'Power')]
+lst_datos = [(7, 'data'), ('hola', 'python corregido'), (True, 'Power')]
 result = ecalderonf_DataProject_python.convertir_tuplas_a_strings(lst_datos)
 
 params = {"lst_datos": lst_datos}
-mostrar_resultado('EJERCICIO 07. convertir_tuplas_a_strings',params, result)
+mostrar_resultado('EJERCICIO 07. convertir_tuplas_a_strings (corregido)',params, result)
 
 
 '''8. Escribe un programa que pida al usuario dos números e intente dividirlos. Si el usuario ingresa un valor no numérico
@@ -121,7 +121,7 @@ lst4 = [random.randint(1, 10) for _ in range(5)]
 result = ecalderonf_DataProject_python.calcular_promedio(lst4)
 
 params = {"lst4": lst4}
-mostrar_resultado('EJERCICIO 10. calcular_promedio',params, result)
+mostrar_resultado('EJERCICIO 10. calcular_promedio (corregido)',params, result)
 
 
 ''' 11. Escribe un programa que pida al usuario que introduzca su edad. Si el usuario ingresa un valor no numérico o un 
@@ -178,7 +178,7 @@ num = 5
 result = ecalderonf_DataProject_python.obtener_palabras_mas_largas(mi_texto, num)
 
 params = {"mi_texto": mi_texto, "num": num}
-mostrar_resultado('EJERCICIO 16. obtener_palabras_mas_largas',params, result)
+mostrar_resultado('EJERCICIO 16. obtener_palabras_mas_largas (corregido)',params, result)
 
 
 '''17. Crea una función que tome una lista de dígitos y devuelva el número correspondiente. Por ejemplo: 5,7,2
@@ -320,7 +320,7 @@ nombre_buscar = 'Jonas'
 result = ecalderonf_DataProject_python.buscar_nombre(lista_nombres, nombre_buscar)
 
 params = {"lista_nombres ": lista_nombres , "nombre_buscar": nombre_buscar}
-mostrar_resultado('EJERCICIO 31. buscar_nombre',params, result)
+mostrar_resultado('EJERCICIO 31. buscar_nombre (corregido)',params, result)
 
 '''32. Crea una función que tome un nombre completo y una lista de empleados, busque el nombre completo en la lista y 
 devuelve el puesto del empleado si está en la lista, de lo contrario, devuelve un mensaje indicando que la persona 
