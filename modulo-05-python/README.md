@@ -24,3 +24,22 @@ El objetivo del fichero es servir como **documento centralizado** del trabajo re
 
 ## Pruebas
 - Ejecutar run_tests.py
+
+## Ejercicios corregidos (ABR/2026)
+- Ejercicio 7 – convertir_tuplas_a_strings
+- Ejercicio 10 – calcular_promedio
+- Ejercicio 16 – obtener_palabras_mas_largas
+- Ejercicio 31 – buscar_nombre
+- Ejercicio 34 – Clase Arbol
+- Ejercicio 36 – UsuarioBanco
+- Ejercicio 37 – procesar_texto
+- Ejercicio 38 – momento_del_dia
+- Ejercicio 41 – precio_final
+
+Ficheros py:
+- ecalderonf_DataProject_python_corregido.py
+- ecalderonf_arbol_corregido.py
+- ecalderonf_momento_del_dia_corregido.py
+- ecalderonf_precio_final_corregido.py
+- ecalderonf_procesar_texto_corregido.py
+- ecalderonf_usuario_banco_corregido.py
