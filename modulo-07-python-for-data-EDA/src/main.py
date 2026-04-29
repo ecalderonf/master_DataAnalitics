@@ -154,16 +154,17 @@ def ejecutar_EDA() -> bool:
 # ============================
 
 while True:
-    respuesta = input('¿Generamos el EDA? (s/n): ').strip().lower()
+    respuesta = input('¿Generar EDA? (s/n): ').strip().lower()
 
     if respuesta == 's':
-        print('Iniciamos proceso ...')
+        print('Iniciar proceso ...')
         if not ejecutar_EDA():
                 exit()
-        print('Proceso finalizado.')
+        print('Finalizar proceso.')
+        print('¡SUCESS!')
         break
     elif respuesta == 'n':
-        print('game over')
+        print('¡GAME OVER!')
         exit()
     else:
         print('Opción no válida')

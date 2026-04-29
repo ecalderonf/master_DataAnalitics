@@ -1,44 +1,50 @@
 # Proyecto EDA – Campaña de marketing bancario
 
-Este proyecto realiza un **proceso completo de validación, copia, limpieza y análisis exploratorio de datos (EDA)** sobre dos fuentes:
+Este proyecto realiza un análisis exploratorio de datos (EDA) sobre dos fuentes:
 
 - Un fichero **CSV** (`bank-additional.csv`)
 - Un fichero **Excel** (`customer.xlsx` o equivalente)
 
-El objetivo es dejar un flujo **reproducible**, con datos **limpios** y un **EDA automático** listo para revisión.
+El objetivo es contar con un flujo **reproducible**, con datos **limpios** y un **EDA automático** listo para revisión.
+
+El script de python proporciona un flujo estable, reproducible y trazable, desde los datos en bruto hasta un EDA completo, 
+con limpieza documentada, análisis descriptivo, visión de datos y un informe explicativo.
+
+---
+## Stack tecnológico
+
+### Lenguaje
+- Python 3.x
+
+### Librerías necesarias
+- pandas → lectura, escritura, limpieza y análisis  
+- numpy → manejo de NaN y operaciones numéricas  
+- openpyxl → lectura de Excel 
+- matplotlib → backend de gráficos  
+- seaborn → gráficos estadísticos  
 
 ---
 
 ## Flujo general del proyecto
 
-1. **Validación de entorno y ficheros**
-   - Comprobación de carpetas requeridas.
-   - Verificación de existencia de ficheros de entrada.
-   - Comprobación de que no estén vacíos.
-   - Verificación de que sean legibles.
+0. **Ejecutar script main.py**
+   - El script pregunta al usuario: ¿Generar EDA? (s/n)?:
+   - Para ejecutar el proceso, escribir **s** y pulsar [Enter].
+   - Para salir, escribir **n**  y pulsar [Enter].
+   - Cualquier otra opción devuelve mensaje de error: Opción inválida y vuelve a preguntar hasta obtener una respuesta válida s/n.
 
-2. **Copia de ficheros “raw” → “processed”**
+1. **Opción s (Ejecuta el proceso)**
+   - Se valida que existan las carpetas y ficheros de entrada.
+   - Comprobación de que los ficheros no estén vacíos y sean legibles.
    - Se copian los ficheros originales a una carpeta de trabajo (`processed`).
-   - Los procesos de limpieza y EDA trabajan siempre sobre los ficheros `processed`.
-
-3. **Limpieza y transformación**
-   - Conversión de tipos (numéricos, fechas, categóricos).
-   - Normalización de formatos (comas decimales, fechas en español, etc.).
-   - Relleno de valores categóricos vacíos con `UNKNOWN`.
-   - Conversión de variables binarias a 0/1.
-   - Eliminación de duplicados por identificador.
-
-4. **Generación del EDA**
-   - Carga de los datos ya limpios.
-   - Cálculo de estadísticas descriptivas.
-   - Generación de gráficos y tablas resumen.
-   - Guardado de resultados (tablas y figuras) en carpetas de `reports`.
+   - Los procesos de limpieza, transformación  y EDA trabajan siempre sobre los ficheros `processed`.
+   - Limpieza y transformación de datos de ambos ficheros
+   - Análisis descriptivo
+   - Visualización de datos (gráficos y tablas resumen)
+   - Generar informe explicativo del análisis.
 
 ---
-
-## Estructura de carpetas
-
-Estructura típica del proyecto:
+## Estructura del proyecto
 
 ```text
 .
@@ -58,23 +64,19 @@ Estructura típica del proyecto:
 │       └── customer_describe.csv
 └── src
     ├── main.py
-    ├── utils_validacion.py
+    ├── utils_ficheros.py
     ├── utils_limpieza.py
     ├── utils_eda.py
-    └── config.py
 
+```
 
-## 3. Ficheros y su objetivo
+## Ficheros
 
 ### src/main.py
-Controla todo el flujo:
-- Validaciones
-- Copia de ficheros
-- Limpieza
-- EDA  
-Es el punto de entrada del proyecto.
+- Controla todo el flujo
+- Es el punto de entrada del proyecto.
 
-### src/utils_validacion.py
+### src/utils_ficheros.py
 Funciones para:
 - Validar carpetas
 - Validar ficheros
@@ -82,7 +84,7 @@ Funciones para:
 - Verificar legibilidad
 
 ### src/utils_limpieza.py
-Incluye:
+IncluyeFunciones para:
 - Conversión de comas a float
 - Conversión de tipos numéricos
 - Conversión de fechas (Excel y español)
@@ -99,57 +101,3 @@ Funciones para:
 - Gráficos categóricos
 - Guardado de imágenes y tablas
 
-### src/config.py
-Define:
-- Rutas de carpetas
-- Nombres de ficheros
-- Parámetros generales del flujo
-
----
-
-## 4. Flujo del script que genera el EDA
-
-1. Validaciones iniciales  
-2. Copia de ficheros desde raw a processed  
-3. Limpieza del dataset BANK  
-4. Limpieza del dataset CUSTOMER  
-5. Carga de los datos ya limpios  
-6. Generación del EDA  
-7. Exportación de resultados a reports/  
-
-Los resultados se guardan en:
-- reports/img/
-- reports/tables/
-
----
-
-## 5. Stack tecnológico
-
-### Lenguaje
-- Python 3.x
-
-### Librerías necesarias
-pandas
-numpy
-matplotlib
-seaborn
-openpyxl
-
-### Uso de cada librería
-- pandas → lectura, escritura, limpieza y análisis  
-- numpy → manejo de NaN y operaciones numéricas  
-- matplotlib → backend de gráficos  
-- seaborn → gráficos estadísticos  
-- openpyxl → lectura de Excel  
-
-. Confirmar la generación del EDA cuando el script lo solicite.
-
-Los resultados aparecerán en:
-- reports/img/
-- reports/tables/
-
----
-
-## 7. Objetivo final
-
-El proyecto garantiza un flujo estable, reproducible y trazable, desde los datos en bruto hasta un EDA completo, con limpieza documentada y resultados exportados de forma organizada.
