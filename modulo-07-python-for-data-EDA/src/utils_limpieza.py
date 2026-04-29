@@ -220,6 +220,19 @@ def limpiar_bank_data(df: pd.DataFrame):
     df, c3 = eliminar_duplicados(df, 'id_')
     control_total['duplicados'] = c3
 
+    # ============================
+    # 7) ELIMINAR COLUMNAS INÚTILES
+    # ============================
+    columnas_a_eliminar = ['Unnamed: 0', 'latitude', 'longitude']
+    existentes = [c for c in columnas_a_eliminar if c in df.columns]
+
+    df = df.drop(columns=existentes)
+
+    control_total['columnas_eliminadas'] = {
+        'columnas': existentes,
+        'total_eliminadas': len(existentes)
+    }    
+
     return df, control_total
 
 
@@ -266,6 +279,19 @@ def limpiar_customer_data(df: pd.DataFrame):
     # ============================
     df, c3 = eliminar_duplicados(df, 'ID')
     control_total['duplicados'] = c3
+
+    # ============================
+    # 5) ELIMINAR COLUMNAS INÚTILES
+    # ============================
+    columnas_a_eliminar = ['Unnamed: 0']
+    existentes = [c for c in columnas_a_eliminar if c in df.columns]
+
+    df = df.drop(columns=existentes)
+
+    control_total['columnas_eliminadas'] = {
+        'columnas': existentes,
+        'total_eliminadas': len(existentes)
+    }    
 
     return df, control_total
 
