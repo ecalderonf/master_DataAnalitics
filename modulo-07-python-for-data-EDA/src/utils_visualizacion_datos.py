@@ -1,5 +1,4 @@
-# utils_visualizacion_datos.py
-
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -33,6 +32,9 @@ def visualizar_bank_subplots(df_bank: pd.DataFrame):
         "#FFE082",  # amarillo pastel
         "#FFB74D"   # naranja medio pastel
     ]
+
+    ruta_salida = os.path.join("reports", "img")
+    os.makedirs(ruta_salida, exist_ok=True)
 
     fig, axes = plt.subplots(2, 3, figsize=(18, 8))
     fig.suptitle("BANK – Métricas", fontsize=14)
@@ -95,6 +97,8 @@ def visualizar_bank_subplots(df_bank: pd.DataFrame):
     )
     ax.set_title("y (respuesta)")
 
+    fig.savefig(os.path.join(ruta_salida, "bank_metricas.png"))
+
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.show()
 
@@ -132,6 +136,9 @@ def visualizar_customer_subplots(df_cust: pd.DataFrame):
         "#FFE082",  # amarillo pastel
         "#FFB74D"   # naranja medio pastel
     ]
+
+    ruta_salida = os.path.join("reports", "img")
+    os.makedirs(ruta_salida, exist_ok=True)
 
     fig, axes = plt.subplots(2, 3, figsize=(18, 8))
     fig.suptitle("CUSTOMER – Métricas", fontsize=14)
@@ -199,6 +206,8 @@ def visualizar_customer_subplots(df_cust: pd.DataFrame):
     ax.set_xlabel("Teenhome")
     ax.set_ylabel("NumWebVisitsMonth")
 
+    fig.savefig(os.path.join(ruta_salida, "customer_metricas.png"))
+    
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.show()
 

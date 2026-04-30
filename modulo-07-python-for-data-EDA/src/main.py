@@ -1,5 +1,8 @@
+
 import os
+import webbrowser
 import pandas as pd
+
 from utils_ficheros import (
     validar_todas_las_carpetas,
     validar_todos_los_ficheros,
@@ -28,6 +31,8 @@ from utils_visualizacion_datos import (
     visualizar_customer_subplots
 )
 
+from utils_ficheros import generar_informe_eda
+
 # ============================
 # CONSTANTES DEL PROYECTO
 # ============================
@@ -48,6 +53,11 @@ FICHEROS_DESTINO = [
     'data/processed/bank-additional-processed.csv',
     'data/processed/customer-details-processed.xlsx'
 ]
+
+RUTA_IMG_BANK = "reports/img/bank_metricas.png"
+RUTA_IMG_CUSTOMER = "reports/img/customer_metricas.png"
+# Ruta real de Chrome en Windows 11
+CHROME_PATH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 # ============================
 # FUNCIÓN DE VALIDACIÓN
@@ -153,6 +163,8 @@ def ejecutar_limpieza() -> bool:
 def ejecutar_analisis_estructural() -> bool:
     print('Iniciando análisis descriptivo...')
 
+    resultados = {"bank": {}, "customer": {} }
+
     # ============================
     # 1) BANK CSV PROCESADO
     # ============================
@@ -178,6 +190,9 @@ def ejecutar_analisis_estructural() -> bool:
     for k, v in control_bank.items():
         print(k, v)
 
+    # Guardamos los datos estructurales de BANK
+    resultados["bank"] = control_bank
+
     # ============================
     # 2) CUSTOMER EXCEL PROCESADO
     # ============================
@@ -202,8 +217,11 @@ def ejecutar_analisis_estructural() -> bool:
     for k, v in control_cust.items():
         print(k, v)
 
+    # Guardamos los datos estructurales de CUSTOMER
+    resultados["customer"] = control_cust
+
     print('Análisis descriptivo completado.')
-    return True
+    return True, resultados
 
 # ====================================
 # FUNCIÓN DE ANALISIS UNIVARIANTE
@@ -211,6 +229,8 @@ def ejecutar_analisis_estructural() -> bool:
 
 def ejecutar_analisis_univariante() -> bool:
     print('Iniciando análisis univariante...')
+
+    resultados = {"bank": {}, "customer": {} }
 
     # ============================
     # 1) BANK CSV PROCESADO
@@ -221,9 +241,13 @@ def ejecutar_analisis_univariante() -> bool:
         return False
 
     print('--- ANÁLISIS UNIVARIANTE BANK ---')
+    
     control_bank_uni = analisis_univariante_bank(df_bank)
     for k, v in control_bank_uni.items():
         print(k, v)
+
+    # Guardado en diccionario
+    resultados["bank"] = control_bank_uni
 
     # ============================
     # 2) CUSTOMER EXCEL PROCESADO
@@ -240,8 +264,10 @@ def ejecutar_analisis_univariante() -> bool:
     for k, v in control_cust_uni.items():
         print(k, v)
 
+    resultados["customer"] = control_cust_uni
+
     print('Análisis univariante completado.')
-    return True
+    return True, resultados
 
 # ====================================
 # FUNCIÓN DE ANALISIS BIVARIANTE
@@ -249,6 +275,8 @@ def ejecutar_analisis_univariante() -> bool:
 
 def ejecutar_analisis_bivariante() -> bool:
     print('Iniciando análisis bivariante...')
+
+    resultados = {"bank": {}, "customer": {} }
 
     # ============================
     # 1) BANK CSV PROCESADO
@@ -262,6 +290,8 @@ def ejecutar_analisis_bivariante() -> bool:
     control_bank_bi = analisis_bivariante_bank(df_bank)
     for k, v in control_bank_bi.items():
         print(k, v)
+
+    resultados["bank"] = control_bank_bi
 
     # ============================
     # 2) CUSTOMER EXCEL PROCESADO
@@ -281,8 +311,10 @@ def ejecutar_analisis_bivariante() -> bool:
     for k, v in control_cust_bi_int.items():
         print(k, v)
 
+    resultados["customer"] = control_cust_bi_int
+
     print('Análisis bivariante completado.')
-    return True
+    return True, resultados
 
 # ============================
 # FUNCIÓN DE VISUALIZACIÓN DE DATOS
@@ -291,6 +323,8 @@ def ejecutar_analisis_bivariante() -> bool:
 def ejecutar_visualizacion_datos():
     print("Iniciando visualización de datos...")
 
+    resultados = {}
+
     df_bank = cargar_csv(FICHEROS_DESTINO[0])
     dict_cust = cargar_excel(FICHEROS_DESTINO[1])
     df_cust = pd.concat(dict_cust.values(), ignore_index=True)
@@ -298,11 +332,48 @@ def ejecutar_visualizacion_datos():
     # 1) Mostrar BANK
     visualizar_bank_subplots(df_bank)
 
+    resultados["bank"] = RUTA_IMG_BANK
+
     # 2) Cuando cierres BANK, aparece CUSTOMER
     visualizar_customer_subplots(df_cust)
 
+    resultados["customer"] = RUTA_IMG_CUSTOMER
+
     print("Visualización completada.")
-    return True 
+    return True, resultados
+
+# ============================
+# FUNCIÓN DEINFORME
+# ============================
+
+def ejecutar_informe(
+    data_estructural,
+    data_univariante,
+    data_bivariante,
+    data_visualizacion,
+):
+    ruta = generar_informe_eda(
+        data_estructural=data_estructural,
+        data_univariante=data_univariante,
+        data_bivariante=data_bivariante,
+        data_visualizacion=data_visualizacion,
+    )
+    print(f"Informe EDA generado en: {ruta}")
+
+    ruta_abs = os.path.abspath(ruta)
+
+    
+
+    # Registrar Chrome manualmente
+    webbrowser.register(
+        'chrome',
+        None,
+        webbrowser.BackgroundBrowser(CHROME_PATH)
+    )
+
+    # Abrir el informe en Chrome
+    webbrowser.get('chrome').open_new_tab(ruta_abs)
+
 
 
 # ============================
@@ -319,17 +390,31 @@ def ejecutar_EDA() -> bool:
     if not ejecutar_limpieza():
         return False
     
-    if not ejecutar_analisis_estructural():
+    ok, data_estructural = ejecutar_analisis_estructural()
+    if not ok:
         return False
     
-    if not ejecutar_analisis_univariante():
+    ok, data_univariante = ejecutar_analisis_univariante()
+    if not ok:
         return False
     
-    if not ejecutar_analisis_bivariante():
+    ok, data_bivariante = ejecutar_analisis_bivariante()
+    if not ok:
         return False
     
-    if ejecutar_visualizacion_datos():
+    ok, data_visualizacion = ejecutar_visualizacion_datos()
+    if not ok:
         return False
+    
+    # ============================
+    # ENVIAR TODO A ejecutar_informe
+    # ============================
+    ejecutar_informe(
+        data_estructural=data_estructural,
+        data_univariante=data_univariante,
+        data_bivariante=data_bivariante,
+        data_visualizacion=data_visualizacion
+    )    
 
     return True
 

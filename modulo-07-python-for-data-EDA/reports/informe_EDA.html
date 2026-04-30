@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset='UTF-8'>
+<title>Informe EDA</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; color: #333; }
+h1, h2, h3, h4 { color: #333; }
+table { border-collapse: collapse; margin-bottom: 25px; width: 100%; font-size: 14px; }
+table th { background-color: #D4670F; color: #333; padding: 8px; border: 1px solid #D4670F; text-align: left; }
+table td { background-color: #FFD48A; padding: 8px; border: 1px solid #D4670F; }
+table tr:nth-child(even) td { background-color: #F7C07C; }
+img { max-width: 100%; height: auto; margin-top: 10px; border: 1px solid #D4670F; padding: 4px; background: #FFF7EF; }
+</style>
+</head>
+<body>
+<h1>Informe de Análisis Exploratorio de Datos (EDA)</h1>
+<h2>Análisis estructural</h2>
+<table border='1' cellspacing='0' cellpadding='6' style='border-collapse: collapse;'>
+<tr><th>Clave</th><th>Valor</th></tr>
+<tr><td>bank</td><td><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'><tr><th>dimensiones</th><th>nulos</th><th>categorias</th><th>columnas_constantes</th></tr><tr><td>{'filas': 43000, 'columnas': 21}</td><td>{'age': 11.91, 'cons.price.idx': 1.1, 'euribor3m': 21.53, 'nr.employed': 81.35, 'date': 0.58}</td><td>{'job': {'num_categorias': 12, 'categorias': ['UNKNOWN', 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed']}, 'marital': {'num_categorias': 4, 'categorias': ['DIVORCED', 'MARRIED', 'SINGLE', 'UNKNOWN']}, 'education': {'num_categorias': 8, 'categorias': ['UNKNOWN', 'basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree']}, 'default': {'num_categorias': 3, 'categorias': ['0', '1', 'UNKNOWN']}, 'housing': {'num_categorias': 3, 'categorias': ['0', '1', 'UNKNOWN']}, 'loan': {'num_categorias': 3, 'categorias': ['0', '1', 'UNKNOWN']}, 'contact': {'num_categorias': 2, 'categorias': ['cellular', 'telephone']}, 'poutcome': {'num_categorias': 3, 'categorias': ['FAILURE', 'NONEXISTENT', 'SUCCESS']}, 'y': {'num_categorias': 2, 'categorias': ['no', 'yes']}}</td><td>{}</td></tr></table></td></tr>
+<tr><td>customer</td><td><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'><tr><th>dimensiones</th><th>nulos</th><th>categorias</th><th>columnas_constantes</th></tr><tr><td>{'filas': 43170, 'columnas': 6}</td><td>{}</td><td>{}</td><td>{}</td></tr></table></td></tr>
+</table>
+<h3>Interpretación</h3>
+<textarea rows="10" style="width:100%; font-size:14px;" readonly>
+El dataset BANK presenta una estructura rica en variables categóricas y un volumen notable de nulos en columnas numéricas clave, lo que es habitual en campañas telefónicas masivas. La variedad de categorías en job, education y marital sugiere perfiles muy heterogéneos. CUSTOMER, en cambio, es un dataset compacto, sin nulos y con variables numéricas limpias, lo que facilita su uso como dataset auxiliar. No se detectan columnas constantes en ninguno de los dos, lo que indica buena variabilidad estructural.
+</textarea>
+<h2>Análisis univariante</h2>
+<table border='1' cellspacing='0' cellpadding='6' style='border-collapse: collapse;'>
+<tr><th>Clave</th><th>Valor</th></tr>
+<tr><td>bank</td><td><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'><tr><th>age_tramos</th><th>duration_tramos</th><th>frecuencias_categoricas</th></tr><tr><td>{'<=25': {'conteo': 1560, 'porcentaje': 3.63}, '26-35': {'conteo': 13705, 'porcentaje': 31.87}, '36-45': {'conteo': 11803, 'porcentaje': 27.45}, '46-55': {'conteo': 7542, 'porcentaje': 17.54}, '56-65': {'conteo': 2694, 'porcentaje': 6.27}, '65+': {'conteo': 576, 'porcentaje': 1.34}, 'nan': {'conteo': 5120, 'porcentaje': 11.91}}</td><td>{'<=60s': {'conteo': 4467, 'porcentaje': 10.39}, '61-180s': {'conteo': 17178, 'porcentaje': 39.95}, '181-600s': {'conteo': 17761, 'porcentaje': 41.3}, '>600s': {'conteo': 3594, 'porcentaje': 8.36}}</td><td>{'job': {'admin.': {'conteo': 10873, 'porcentaje': 25.29}, 'blue-collar': {'conteo': 9654, 'porcentaje': 22.45}, 'technician': {'conteo': 7026, 'porcentaje': 16.34}, 'services': {'conteo': 4162, 'porcentaje': 9.68}, 'management': {'conteo': 3050, 'porcentaje': 7.09}, 'retired': {'conteo': 1790, 'porcentaje': 4.16}, 'entrepreneur': {'conteo': 1522, 'porcentaje': 3.54}, 'self-employed': {'conteo': 1489, 'porcentaje': 3.46}, 'housemaid': {'conteo': 1123, 'porcentaje': 2.61}, 'unemployed': {'conteo': 1063, 'porcentaje': 2.47}, 'student': {'conteo': 903, 'porcentaje': 2.1}, 'UNKNOWN': {'conteo': 345, 'porcentaje': 0.8}}, 'marital': {'MARRIED': {'conteo': 25999, 'porcentaje': 60.46}, 'SINGLE': {'conteo': 12105, 'porcentaje': 28.15}, 'DIVORCED': {'conteo': 4811, 'porcentaje': 11.19}, 'UNKNOWN': {'conteo': 85, 'porcentaje': 0.2}}, 'education': {'university.degree': {'conteo': 12722, 'porcentaje': 29.59}, 'high.school': {'conteo': 9925, 'porcentaje': 23.08}, 'basic.9y': {'conteo': 6309, 'porcentaje': 14.67}, 'professional.course': {'conteo': 5477, 'porcentaje': 12.74}, 'basic.4y': {'conteo': 4356, 'porcentaje': 10.13}, 'basic.6y': {'conteo': 2386, 'porcentaje': 5.55}, 'UNKNOWN': {'conteo': 1807, 'porcentaje': 4.2}, 'illiterate': {'conteo': 18, 'porcentaje': 0.04}}, 'housing': {'1': {'conteo': 22498, 'porcentaje': 52.32}, '0': {'conteo': 19476, 'porcentaje': 45.29}, 'UNKNOWN': {'conteo': 1026, 'porcentaje': 2.39}}, 'loan': {'0': {'conteo': 35442, 'porcentaje': 82.42}, '1': {'conteo': 6532, 'porcentaje': 15.19}, 'UNKNOWN': {'conteo': 1026, 'porcentaje': 2.39}}, 'contact': {'cellular': {'conteo': 27396, 'porcentaje': 63.71}, 'telephone': {'conteo': 15604, 'porcentaje': 36.29}}, 'poutcome': {'NONEXISTENT': {'conteo': 37103, 'porcentaje': 86.29}, 'FAILURE': {'conteo': 4461, 'porcentaje': 10.37}, 'SUCCESS': {'conteo': 1436, 'porcentaje': 3.34}}, 'y': {'no': {'conteo': 38156, 'porcentaje': 88.73}, 'yes': {'conteo': 4844, 'porcentaje': 11.27}}}</td></tr></table></td></tr>
+<tr><td>customer</td><td><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'><tr><th>income_tramos</th><th>numweb_tramos</th><th>kidhome_tramos</th><th>teenhome_tramos</th></tr><tr><td>{'bajo': {'conteo': 14390, 'porcentaje': 33.33}, 'medio': {'conteo': 14391, 'porcentaje': 33.34}, 'alto': {'conteo': 14389, 'porcentaje': 33.33}}</td><td>{'baja': {'conteo': 4002, 'porcentaje': 9.27}, 'media': {'conteo': 5302, 'porcentaje': 12.28}, 'alta': {'conteo': 33866, 'porcentaje': 78.45}}</td><td>{'2': {'conteo': 14475, 'porcentaje': 33.53}, '1': {'conteo': 14425, 'porcentaje': 33.41}, '0': {'conteo': 14270, 'porcentaje': 33.06}}</td><td>{'1': {'conteo': 14425, 'porcentaje': 33.41}, '0': {'conteo': 14402, 'porcentaje': 33.36}, '2': {'conteo': 14343, 'porcentaje': 33.22}}</td></tr></table></td></tr>
+</table>
+<h3>Interpretación</h3>
+<textarea rows="10" style="width:100%; font-size:14px;" readonly>
+Las distribuciones muestran patrones claros: en BANK, la edad se concentra en adultos jóvenes y medios, mientras que la duración de las llamadas se agrupa mayoritariamente entre 1 y 10 minutos. Las categorías dominantes (admin., blue-collar, technician, married, university.degree) reflejan perfiles típicos de campañas bancarias. La conversión global es baja, coherente con campañas telefónicas reales. CUSTOMER presenta distribuciones extremadamente uniformes, lo que indica ausencia de sesgos fuertes en ingresos, visitas web o estructura familiar.
+</textarea>
+<h2>Análisis bivariante</h2>
+<table border='1' cellspacing='0' cellpadding='6' style='border-collapse: collapse;'>
+<tr><th>Clave</th><th>Valor</th></tr>
+<tr><td>bank</td><td><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'><tr><th>tasa_conv_age_tramos</th><th>tasa_conv_job</th><th>tasa_conv_contact</th><th>tasa_conv_duration_tramos</th><th>tasa_conv_campaign</th></tr><tr><td>{'<=25': {'n': 1560, 'tasa_conversion': 20.9}, '26-35': {'n': 13705, 'tasa_conversion': 11.61}, '36-45': {'n': 11803, 'tasa_conversion': 8.59}, '46-55': {'n': 7542, 'tasa_conversion': 8.68}, '56-65': {'n': 2694, 'tasa_conversion': 15.4}, '65+': {'n': 576, 'tasa_conversion': 46.01}}</td><td>{'UNKNOWN': {'n': 345, 'tasa_conversion': 11.3}, 'admin.': {'n': 10873, 'tasa_conversion': 13.01}, 'blue-collar': {'n': 9654, 'tasa_conversion': 6.89}, 'entrepreneur': {'n': 1522, 'tasa_conversion': 8.28}, 'housemaid': {'n': 1123, 'tasa_conversion': 9.88}, 'management': {'n': 3050, 'tasa_conversion': 11.21}, 'retired': {'n': 1790, 'tasa_conversion': 25.2}, 'self-employed': {'n': 1489, 'tasa_conversion': 10.81}, 'services': {'n': 4162, 'tasa_conversion': 8.07}, 'student': {'n': 903, 'tasa_conversion': 31.34}, 'technician': {'n': 7026, 'tasa_conversion': 10.85}, 'unemployed': {'n': 1063, 'tasa_conversion': 14.39}}</td><td>{'cellular': {'n': 27396, 'tasa_conversion': 14.74}, 'telephone': {'n': 15604, 'tasa_conversion': 5.16}}</td><td>{'<=60s': {'n': 4467, 'tasa_conversion': 0.0}, '61-180s': {'n': 17178, 'tasa_conversion': 3.43}, '181-600s': {'n': 17761, 'tasa_conversion': 14.1}, '>600s': {'n': 3594, 'tasa_conversion': 48.69}}</td><td>{'muchas': {'n': 13548, 'tasa_conversion': 8.71}, 'pocas': {'n': 29452, 'tasa_conversion': 12.44}}</td></tr></table></td></tr>
+<tr><td>customer</td><td><table border='1' cellspacing='0' cellpadding='4' style='border-collapse: collapse;'><tr><th>income_vs_numweb</th><th>income_vs_kidhome</th><th>numweb_vs_teenhome</th></tr><tr><td>{'bajo': {'baja': 9.32, 'media': 11.72, 'alta': 78.96}, 'medio': {'baja': 9.14, 'media': 13.05, 'alta': 77.81}, 'alto': {'baja': 9.35, 'media': 12.08, 'alta': 78.57}}</td><td>{'bajo': {'0': 33.17, '1': 33.41, '2': 33.42}, 'medio': {'0': 33.03, '1': 33.22, '2': 33.75}, 'alto': {'0': 32.97, '1': 33.61, '2': 33.42}}</td><td>{'baja': {'0': 34.86, '1': 31.53, '2': 33.61}, 'media': {'0': 32.57, '1': 33.91, '2': 33.52}, 'alta': {'0': 33.31, '1': 33.56, '2': 33.13}}</td></tr></table></td></tr>
+</table>
+<h3>Interpretación</h3>
+<textarea rows="10" style="width:100%; font-size:14px;" readonly>
+En BANK emergen patrones de negocio muy definidos: los extremos de edad convierten mejor, ciertas profesiones destacan (student, retired), el canal celular supera claramente al telefónico y las llamadas largas muestran tasas de conversión muy superiores. Además, la presión de campaña afecta negativamente: más llamadas reducen la conversión. En CUSTOMER, las relaciones internas son prácticamente planas: ingresos, visitas web y estructura familiar no muestran asociaciones relevantes, lo que confirma que es un dataset homogéneo y estable.
+</textarea>
+<h2>Visualización de datos</h2>
+<h3>bank</h3>
+<p>Gráfica generada:</p>
+<img src='img\bank_metricas.png' alt='Gráfica bank'>
+<h3>customer</h3>
+<p>Gráfica generada:</p>
+<img src='img\customer_metricas.png' alt='Gráfica customer'>
+</body>
+</html>
