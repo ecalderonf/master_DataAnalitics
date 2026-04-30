@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from utils_ficheros import (
     validar_todas_las_carpetas,
@@ -20,6 +21,11 @@ from utils_analisis_descriptivo import (
     analisis_univariante_customer,
     analisis_bivariante_bank,
     analisis_bivariante_interno_customer
+)
+
+from utils_visualizacion_datos import (
+    visualizar_bank_subplots,
+    visualizar_customer_subplots
 )
 
 # ============================
@@ -278,6 +284,26 @@ def ejecutar_analisis_bivariante() -> bool:
     print('Análisis bivariante completado.')
     return True
 
+# ============================
+# FUNCIÓN DE VISUALIZACIÓN DE DATOS
+# ============================
+
+def ejecutar_visualizacion_datos():
+    print("Iniciando visualización de datos...")
+
+    df_bank = cargar_csv(FICHEROS_DESTINO[0])
+    dict_cust = cargar_excel(FICHEROS_DESTINO[1])
+    df_cust = pd.concat(dict_cust.values(), ignore_index=True)
+
+    # 1) Mostrar BANK
+    visualizar_bank_subplots(df_bank)
+
+    # 2) Cuando cierres BANK, aparece CUSTOMER
+    visualizar_customer_subplots(df_cust)
+
+    print("Visualización completada.")
+    return True
+
 
 # ============================
 # FUNCIÓN DE FLUJO PRINCIPAL
@@ -300,6 +326,9 @@ def ejecutar_EDA() -> bool:
         return False
     
     if not ejecutar_analisis_bivariante():
+        return False
+    
+    if ejecutar_visualizacion_datos():
         return False
 
     return True
