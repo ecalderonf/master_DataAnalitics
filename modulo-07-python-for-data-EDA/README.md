@@ -69,7 +69,7 @@ con limpieza documentada, análisis descriptivo, visión de datos y un informe e
     ├── utils_ficheros.py
     ├── utils_limpieza.py
     ├── utils_analisis_descriptivo.py
-    ├── utils_eda.py
+    ├── utils_visualizacion_datos.py
 
 ```
 
@@ -104,16 +104,28 @@ Incluye funciones para:
 - Análisis bivariante interno de CUSTOMER (tablas cruzadas entre tramos y variables familiares)
 - Generación de cifras de control para cada bloque analítico
 
-### src/utils_eda.py
+### src/utils_visualizacion_datos.py
 Funciones para:
-- Estadísticos descriptivos
-- Histogramas
-- Boxplots
-- Gráficos categóricos
-- Guardado de imágenes y tablas
+
+Visualizaciones exploratorias del proyecto, organizadas en paneles compactos y mostradas directamente en consola. 
+Su propósito es ofrecer una visión rápida, simultánea y estructurada de las principales métricas de los datasets BANK y CUSTOMER.
+
+- **Construcción de tramos numéricos**  
+  Segmentación de variables continuas en rangos definidos para facilitar su análisis visual.
+
+- **Visualización univariante**  
+  Representación gráfica de distribuciones y frecuencias de las variables principales de cada dataset.
+
+- **Visualización de relaciones internas**  
+  Uso de tablas cruzadas y heatmaps para explorar dependencias entre variables dentro del dataset CUSTOMER.
+
+- **Paneles de visualización compactos**  
+  Cada dataset se muestra en un único lienzo mediante una rejilla de subplots (2×3), permitiendo revisar varias métricas a la vez sin abrir múltiples ventanas.
+
+- **Salida inmediata en consola**  
+  Todas las figuras se muestran mediante `plt.show()`.
 
 ---
-
 ## Análisis descriptivo
 
 1. **Métricas estructurales básicas – 4**
@@ -153,7 +165,6 @@ Funciones para:
 El análisis descriptivo realizado sobre **BANK** y **CUSTOMER** permite entender con precisión la estructura, distribución y relaciones internas de ambos datasets antes de cualquier modelado o cruce. A continuación se sintetizan los hallazgos clave.
 
 ---
-
 ## BANK — Análisis estructural
 
 El dataset **BANK** contiene **43.000 filas y 21 columnas**, con varios puntos relevantes a nivel estructural:
@@ -266,3 +277,133 @@ Dado que CUSTOMER no contiene `y`, se analizan relaciones internas:
 BANK muestra variabilidad real y patrones claros en conversión según edad, profesión, canal, duración y presión de campaña. CUSTOMER, en cambio, es un dataset extremadamente homogéneo: ingresos, visitas web y estructura familiar no presentan relaciones fuertes entre sí. Ambos análisis completan la fase descriptiva con cifras consistentes y sin anomalías.
 
 ---
+
+## Visualización de los datos. 
+Redistribuidas: **primero BANK**, después **CUSTOMER**, sin añadir nada fuera de lo pedido.
+
+---
+
+## ✔️ BANK — Visualizaciones
+
+### 1) Métricas estructurales (BANK)
+
+#### 1.1 Número de filas y columnas
+- Tabla simple (texto o tabla en subplot).
+
+#### 1.2 Porcentaje de nulos por columna
+- Bar chart horizontal  
+  (columnas en eje Y, % nulos en eje X).
+
+#### 1.3 Número de categorías por variable categórica
+- Bar chart horizontal  
+  (variable en eje Y, número de categorías en eje X).
+
+#### 1.4 Columnas constantes o casi constantes
+- Tabla simple  
+  (columna → proporción dominante).
+
+---
+
+### 2) Métricas univariantes (BANK)
+
+#### **2.1 Distribución de age por tramos**
+- Bar chart  
+  (tramos en eje X, conteo o % en eje Y).
+
+#### **2.2 Distribución de duration por tramos**
+- Bar chart  
+  (tramos en eje X, conteo o % en eje Y).
+
+#### **2.3 Frecuencias categóricas (job, marital, education, housing, loan, contact, poutcome, y)**
+- Subplots de barras, uno por variable  
+  (categorías en eje X, % en eje Y).
+
+---
+
+### 3) Métricas bivariantes (BANK)
+
+#### 3.1 Tasa de conversión por age (tramos)
+- Bar chart  
+  (tramos en eje X, tasa % en eje Y).
+
+#### 3.2 Tasa de conversión por job
+- Bar chart horizontal  
+  (job en eje Y, tasa % en eje X).
+
+#### 3.3 Tasa de conversión por contact
+- Bar chart  
+  (cellular vs telephone).
+
+#### 3.4 Tasa de conversión por duration (tramos)
+- Bar chart  
+  (<=60s, 61–180s, 181–600s, >600s).
+
+#### 3.5 Tasa de conversión por campaign (pocas vs muchas)
+- Bar chart  
+  (pocas vs muchas).
+
+---
+
+### Visualización BANK – Métricas
+
+![BANK – Métricas](reports/img/bank_metricas.png)
+
+---
+
+### ✔️ CUSTOMER — Visualizaciones
+
+### 4) Métricas estructurales (CUSTOMER)
+
+#### 4.1 Número de filas y columnas
+- Tabla simple.
+
+#### 4.2 Porcentaje de nulos por columna
+- Bar chart horizontal  
+  (si hubiera nulos).
+
+#### 4.3 Número de categorías por variable categórica
+- Bar chart horizontal  
+  (si existieran categóricas relevantes).
+
+#### 4.4 Columnas constantes o casi constantes
+- Tabla simple.
+
+---
+
+## 5) Métricas univariantes (CUSTOMER)
+
+#### 5.1 Distribución de Income por tramos
+- Bar chart  
+  (bajo/medio/alto).
+
+#### 5.2 Distribución de NumWebVisitsMonth por tramos
+- Bar chart  
+  (baja/media/alta).
+
+#### 5.3 Distribución de Kidhome y Teenhome
+- Bar chart  
+  (0/1/2/3+).
+
+---
+
+### 6) Métricas bivariantes internas (CUSTOMER)
+
+#### 6.1 Income (tramos) vs NumWebVisitsMonth (tramos)
+- Heatmap  
+  (filas = income, columnas = numweb, valores = %).
+
+#### 6.2 Income (tramos) vs Kidhome**
+- Heatmap  
+  (filas = income, columnas = Kidhome, valores = %).
+
+#### 6.3 NumWebVisitsMonth (tramos) vs Teenhome
+- Heatmap  
+  (filas = numweb, columnas = Teenhome, valores = %).
+
+---
+
+### Visualización BANK – Métricas
+
+![CUSTOMER – Métricas](reports/img/customer_metricas.png)
+
+--

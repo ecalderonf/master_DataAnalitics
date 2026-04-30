@@ -302,7 +302,7 @@ def ejecutar_visualizacion_datos():
     visualizar_customer_subplots(df_cust)
 
     print("Visualización completada.")
-    return True
+    return True 
 
 
 # ============================

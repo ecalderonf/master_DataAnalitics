@@ -24,14 +24,24 @@ def visualizar_bank_subplots(df_bank: pd.DataFrame):
     usando una rejilla 2x3 de subplots.
     """
 
+    # Paleta pastel (naranjas/amarillos suaves)
+    colores = [
+        "#FFCC80",  # naranja pastel
+        "#FFE0B2",  # crema pastel
+        "#FFD180",  # naranja claro
+        "#FFECB3",  # amarillo suave
+        "#FFE082",  # amarillo pastel
+        "#FFB74D"   # naranja medio pastel
+    ]
+
     fig, axes = plt.subplots(2, 3, figsize=(18, 8))
-    fig.suptitle("BANK – Métricas univariantes y de negocio", fontsize=14)
+    fig.suptitle("BANK – Métricas", fontsize=14)
 
     # 1) age por tramos
     ax = axes[0, 0]
     age_tramos = _tramos_age(df_bank)
     vc_age = age_tramos.value_counts().sort_index()
-    sns.barplot(x=vc_age.index.astype(str), y=vc_age.values, ax=ax)
+    sns.barplot(x=vc_age.index.astype(str), y=vc_age.values, ax=ax, color=colores[0])
     ax.set_title("age por tramos")
     ax.set_xlabel("")
     ax.set_ylabel("conteo")
@@ -41,16 +51,16 @@ def visualizar_bank_subplots(df_bank: pd.DataFrame):
     ax = axes[0, 1]
     dur_tramos = _tramos_duration(df_bank)
     vc_dur = dur_tramos.value_counts().sort_index()
-    sns.barplot(x=vc_dur.index.astype(str), y=vc_dur.values, ax=ax)
+    sns.barplot(x=vc_dur.index.astype(str), y=vc_dur.values, ax=ax, color=colores[1])
     ax.set_title("duration por tramos")
     ax.set_xlabel("")
     ax.set_ylabel("conteo")
     ax.tick_params(axis='x', rotation=45)
 
-    # 3) job
+    # 3) job (top 10)
     ax = axes[0, 2]
     vc_job = df_bank["job"].value_counts().sort_values(ascending=False).head(10)
-    sns.barplot(y=vc_job.index.astype(str), x=vc_job.values, ax=ax)
+    sns.barplot(y=vc_job.index.astype(str), x=vc_job.values, ax=ax, color=colores[2])
     ax.set_title("job (top 10)")
     ax.set_xlabel("conteo")
     ax.set_ylabel("job")
@@ -58,7 +68,7 @@ def visualizar_bank_subplots(df_bank: pd.DataFrame):
     # 4) marital
     ax = axes[1, 0]
     vc_mar = df_bank["marital"].value_counts()
-    sns.barplot(x=vc_mar.index.astype(str), y=vc_mar.values, ax=ax)
+    sns.barplot(x=vc_mar.index.astype(str), y=vc_mar.values, ax=ax, color=colores[3])
     ax.set_title("marital")
     ax.set_xlabel("")
     ax.set_ylabel("conteo")
@@ -67,19 +77,23 @@ def visualizar_bank_subplots(df_bank: pd.DataFrame):
     # 5) education
     ax = axes[1, 1]
     vc_edu = df_bank["education"].value_counts()
-    sns.barplot(x=vc_edu.index.astype(str), y=vc_edu.values, ax=ax)
+    sns.barplot(x=vc_edu.index.astype(str), y=vc_edu.values, ax=ax, color=colores[4])
     ax.set_title("education")
     ax.set_xlabel("")
     ax.set_ylabel("conteo")
     ax.tick_params(axis='x', rotation=90)
 
-    # 6) y (target)
+    # 6) y (respuesta) → PIE CHART
     ax = axes[1, 2]
     vc_y = df_bank["y"].value_counts()
-    sns.barplot(x=vc_y.index.astype(str), y=vc_y.values, ax=ax)
+    ax.pie(
+        vc_y.values,
+        labels=vc_y.index.astype(str),
+        autopct="%1.1f%%",
+        colors=[colores[5], colores[0]],
+        startangle=90
+    )
     ax.set_title("y (respuesta)")
-    ax.set_xlabel("")
-    ax.set_ylabel("conteo")
 
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.show()
@@ -109,60 +123,82 @@ def visualizar_customer_subplots(df_cust: pd.DataFrame):
     usando una rejilla 2x3 de subplots.
     """
 
-    fig, axes = plt.subplots(2, 3, figsize=(18, 8))
-    fig.suptitle("CUSTOMER – Métricas univariantes y de negocio", fontsize=14)
+    # Paleta pastel (idéntica a BANK)
+    colores = [
+        "#FFCC80",  # naranja pastel
+        "#FFE0B2",  # crema pastel
+        "#FFD180",  # naranja claro
+        "#FFECB3",  # amarillo suave
+        "#FFE082",  # amarillo pastel
+        "#FFB74D"   # naranja medio pastel
+    ]
 
-    # 1) Income por tramos
+    fig, axes = plt.subplots(2, 3, figsize=(18, 8))
+    fig.suptitle("CUSTOMER – Métricas", fontsize=14)
+
+    # 1) Income por tramos → PIE
     ax = axes[0, 0]
     income_tramos = _tramos_income(df_cust)
     vc_inc = income_tramos.value_counts().sort_index()
-    sns.barplot(x=vc_inc.index.astype(str), y=vc_inc.values, ax=ax)
+    ax.pie(
+        vc_inc.values,
+        labels=vc_inc.index.astype(str),
+        autopct="%1.1f%%",
+        colors=[colores[0], colores[1], colores[2]],
+        startangle=90
+    )
     ax.set_title("Income por tramos")
-    ax.set_xlabel("")
-    ax.set_ylabel("conteo")
-    ax.tick_params(axis='x', rotation=45)
 
-    # 2) NumWebVisitsMonth por tramos
+    # 2) NumWebVisitsMonth por tramos → BARRAS (se mantiene)
     ax = axes[0, 1]
     web_tramos = _tramos_numweb(df_cust)
     vc_web = web_tramos.value_counts().sort_index()
-    sns.barplot(x=vc_web.index.astype(str), y=vc_web.values, ax=ax)
+    sns.barplot(x=vc_web.index.astype(str), y=vc_web.values, ax=ax, color=colores[3])
     ax.set_title("NumWebVisitsMonth por tramos")
     ax.set_xlabel("")
     ax.set_ylabel("conteo")
     ax.tick_params(axis='x', rotation=45)
 
-    # 3) Kidhome
+    # 3) Kidhome → PIE
     ax = axes[0, 2]
     vc_kid = df_cust["Kidhome"].value_counts().sort_index()
-    sns.barplot(x=vc_kid.index.astype(str), y=vc_kid.values, ax=ax)
+    ax.pie(
+        vc_kid.values,
+        labels=vc_kid.index.astype(str),
+        autopct="%1.1f%%",
+        colors=[colores[4], colores[5], colores[0]],
+        startangle=90
+    )
     ax.set_title("Kidhome")
-    ax.set_xlabel("")
-    ax.set_ylabel("conteo")
 
-    # 4) Teenhome
+    # 4) Teenhome → PIE
     ax = axes[1, 0]
     vc_teen = df_cust["Teenhome"].value_counts().sort_index()
-    sns.barplot(x=vc_teen.index.astype(str), y=vc_teen.values, ax=ax)
+    ax.pie(
+        vc_teen.values,
+        labels=vc_teen.index.astype(str),
+        autopct="%1.1f%%",
+        colors=[colores[1], colores[2], colores[3]],
+        startangle=90
+    )
     ax.set_title("Teenhome")
-    ax.set_xlabel("")
-    ax.set_ylabel("conteo")
 
-    # 5) Income vs Kidhome (heatmap)
+    # 5) Income vs Kidhome → HEATMAP
     ax = axes[1, 1]
     tabla1 = pd.crosstab(income_tramos, df_cust["Kidhome"], normalize="index") * 100
-    sns.heatmap(tabla1, annot=True, fmt=".1f", cmap="Blues", ax=ax)
+    sns.heatmap(tabla1, annot=True, fmt=".1f", cmap="YlOrBr", ax=ax)
     ax.set_title("Income vs Kidhome")
     ax.set_xlabel("Kidhome")
     ax.set_ylabel("Income")
 
-    # 6) NumWebVisitsMonth vs Teenhome (heatmap)
+    # 6) NumWebVisitsMonth vs Teenhome → HEATMAP
     ax = axes[1, 2]
     tabla2 = pd.crosstab(web_tramos, df_cust["Teenhome"], normalize="index") * 100
-    sns.heatmap(tabla2, annot=True, fmt=".1f", cmap="Blues", ax=ax)
+    sns.heatmap(tabla2, annot=True, fmt=".1f", cmap="YlOrBr", ax=ax)
     ax.set_title("NumWebVisitsMonth vs Teenhome")
     ax.set_xlabel("Teenhome")
     ax.set_ylabel("NumWebVisitsMonth")
 
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.show()
+
