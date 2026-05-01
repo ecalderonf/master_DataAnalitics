@@ -1,3 +1,10 @@
+'''
+__resumen__ = "Script principal del proyecto EDA: coordina el flujo completo de validación, copia, limpieza, análisis estructural/univariante/bivariante, visualización y generación del informe HTML final."
+__author__ = "ecalderonf"
+__copyright__ = "Copyright 2026, ecalderonf"
+__version__ = "beta"
+__email__ = "edu.calderon.es@gmail.com"
+__status__ = "Prototype"'''
 
 import os
 import webbrowser

@@ -1,3 +1,10 @@
+'''__resumen__ = "Funciones de carga, conversión de tipos, tratamiento de fechas, gestión de nulos y duplicados, normalización de categorías y limpieza específica para los datasets BANK y CUSTOMER."
+__author__ = "ecalderonf"
+__copyright__ = "Copyright 2026, ecalderonf"
+__version__ = "beta"
+__email__ = "edu.calderon.es@gmail.com"
+__status__ = "Prototype"'''
+
 import pandas as pd
 import numpy as np
 

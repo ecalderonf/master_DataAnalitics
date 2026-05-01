@@ -1,3 +1,11 @@
+'''__resumen__ = "Funciones utilitarias para validación de carpetas y ficheros, copia de datos, conversión de estructuras a tablas HTML y generación del informe EDA en formato HTML."
+__author__ = "ecalderonf"
+__copyright__ = "Copyright 2026, ecalderonf"
+__version__ = "beta"
+__email__ = "edu.calderon.es@gmail.com"
+__status__ = "Prototype"'''
+
+
 import os
 import shutil
 import json

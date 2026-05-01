@@ -17,11 +17,22 @@ con limpieza documentada, análisis descriptivo, visión de datos y un informe e
 - Python 3.x
 
 ### Librerías necesarias
-- pandas → lectura, escritura, limpieza y análisis  
-- numpy → manejo de NaN y operaciones numéricas  
-- openpyxl → lectura de Excel 
-- matplotlib → backend de gráficos  
-- seaborn → gráficos estadísticos  
+
+**Sistema y utilidades**
+- os → gestión de rutas y sistema de archivos  
+- shutil → copia de ficheros  
+- openpyxl → lectura de Excel
+- json → lectura/escritura de estructuras JSON  
+- webbrowser → apertura automática del informe HTML  
+
+**Análisis y manipulación de datos**
+- pandas → carga, limpieza, transformación y análisis  
+- numpy → operaciones numéricas y manejo de NaN  
+- typing (Any, Dict) → tipado estático para funciones  
+
+**Visualización**
+- matplotlib.pyplot → backend de gráficos  
+- seaborn → gráficos estadísticos y estilizados 
 
 ---
 
@@ -399,7 +410,7 @@ Redistribuidas: **primero BANK**, después **CUSTOMER**, sin añadir nada fuera 
 
 ---
 
-### Visualización BANK – Métricas
+### Visualización CUSTOMER – Métricas
 
 ![CUSTOMER – Métricas](reports/img/customer_metricas.png)
 

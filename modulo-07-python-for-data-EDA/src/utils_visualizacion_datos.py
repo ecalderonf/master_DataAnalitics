@@ -1,3 +1,11 @@
+'''__resumen__ = "Funciones de visualización para los datasets BANK y CUSTOMER: generación de subplots, gráficos de barras, pie charts y heatmaps con paleta pastel para su inclusión en el informe EDA."
+__author__ = "ecalderonf"
+__copyright__ = "Copyright 2026, ecalderonf"
+__version__ = "beta"
+__email__ = "edu.calderon.es@gmail.com"
+__status__ = "Prototype"
+'''
+
 import os
 import numpy as np
 import pandas as pd
