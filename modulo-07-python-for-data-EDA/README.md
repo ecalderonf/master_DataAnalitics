@@ -36,8 +36,6 @@ con limpieza documentada, análisis descriptivo, visión de datos y un informe e
 1. **Opción s (Ejecuta el proceso)**
    - Se valida que existan las carpetas y ficheros de entrada.
    - Comprobación de que los ficheros no estén vacíos y sean legibles.
-   - Se copian los ficheros originales a una carpeta de trabajo (`processed`).
-   - Los procesos de limpieza, transformación  y EDA trabajan siempre sobre los ficheros `processed`.
    - Limpieza y transformación de datos de ambos ficheros
    - Análisis descriptivo
    - Visualización de datos (gráficos y tablas resumen)
@@ -59,11 +57,9 @@ con limpieza documentada, análisis descriptivo, visión de datos y un informe e
 │       └── customer-processed.xlsx
 ├── reports
 │   ├── img
-│   │   ├── bank_*.png
-│   │   └── customer_*.png
-│   └── tables
-│       ├── bank_describe.csv
-│       └── customer_describe.csv
+│   │   ├── bank_metricas.png
+│   │   └── customer_metricas.png
+│   └── informe_EDA.html
 └── src
     ├── main.py
     ├── utils_ficheros.py
@@ -85,6 +81,7 @@ Funciones para:
 - Validar ficheros
 - Comprobar tamaño
 - Verificar legibilidad
+- Genera informe en formato html
 
 ### src/utils_limpieza.py
 IncluyeFunciones para:
@@ -407,3 +404,18 @@ Redistribuidas: **primero BANK**, después **CUSTOMER**, sin añadir nada fuera 
 ![CUSTOMER – Métricas](reports/img/customer_metricas.png)
 
 --
+
+## Informe de Análisis Exploratorio de Datos (EDA).
+
+Se genera un fichero html que interpreta los análisis realizados.
+Este fichero se deja en la carpeta reports con nombre: informe_EDA.html
+
+#### Análisis estructural
+![CUSTOMER – Métricas](reports/img/eda_analisis_estructural.png)
+--
+#### Análisis univariante
+![CUSTOMER – Métricas](reports/img/eda_analisis_univariante.png)
+---
+#### Análisis bivariante
+![CUSTOMER – Métricas](reports/img/eda_analisis_bivariante.png)
+---
