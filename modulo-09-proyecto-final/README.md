@@ -67,7 +67,7 @@ El objetivo es contar con una base sólida para construir un Dashboard de perfor
 - Es el punto de entrada del proyecto.
 
 ---
-## 📊 Análisis descriptivo de los datos
+## Análisis descriptivo de los datos
 
 El proceso de análisis descriptivo se apoyó en tres datasets clave —orders, order_items y products— tras una depuración profunda que eliminó tablas irrelevantes y columnas sin valor analítico. 
 Cada dataset quedó estructurado para permitir una lectura clara del ciclo comercial: desde la creación del pedido, pasando por el detalle de cada ítem vendido, hasta las características del producto asociado. La validación inicial confirmó la ausencia total de duplicados y la inexistencia de columnas completamente nulas, aunque sí se identificó un volumen significativo de valores faltantes en fechas logísticas, especialmente en orders, coherente con la presencia de pedidos cancelados.
@@ -252,66 +252,134 @@ No hay duplicados.
 ---
 ## Análisis estadístico de los datos.
 
-El dataset **BANK** contiene **43.000 filas y 21 columnas**, con varios puntos relevantes a nivel estructural:
+### 1. Métricas de ventas — rendimiento comercial
 
-### Nulos relevantes
-- **age** → 11,91%  
-- **cons.price.idx** → 1,10%  
-- **euribor3m** → 21,53%  
-- **nr.employed** → 81,35%  
-- **date** → 0,58%
+Los datos muestran un negocio con **volumen alto de pedidos** (125k) pero con **ventas por unidad relativamente bajas**, típico de un catálogo amplio y muy fragmentado.
 
-### Variables categóricas y sus valores
-A continuación se listan **todas las columnas categóricas**, su **número de categorías** y **los valores detectados**:
+- **Ingreso total:** 10.8M  
+- **Pedidos totales:** 125k  
+- **Ticket promedio:** 86.46  
+- **Unidades vendidas:** 181k  
 
-#### **job** (12 categorías)
-`['UNKNOWN', 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed']`
-
-#### **marital** (4 categorías)
-`['DIVORCED', 'MARRIED', 'SINGLE', 'UNKNOWN']`
-
-#### **education** (8 categorías)
-`['UNKNOWN', 'basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree']`
-
-#### **default** (3 categorías)
-`['0', '1', 'UNKNOWN']`
-
-#### **housing** (3 categorías)
-`['0', '1', 'UNKNOWN']`
-
-#### **loan** (3 categorías)
-`['0', '1', 'UNKNOWN']`
-
-#### **contact** (2 categorías)
-`['cellular', 'telephone']`
-
-#### **poutcome** (3 categorías)
-`['FAILURE', 'NONEXISTENT', 'SUCCESS']`
-
-#### **y** (2 categorías — variable objetivo)
-`['no', 'yes']`
-
-### Columnas constantes
-No se detectan columnas constantes ni casi constantes.
+#### Análisis
+- El ticket promedio es **estable** y coincide con el ingreso promedio por pedido, lo que indica **coherencia interna** entre orders y order_items.  
+- La relación *unidades vendidas / pedidos* ≈ **1.45 unidades por pedido**, lo que sugiere compras pequeñas, propias de moda.  
+- El ingreso total está bien distribuido: no hay dependencia extrema de un solo segmento.
 
 ---
 
-En conjunto, BANK presenta una estructura **rica en variables categóricas**, con distribuciones amplias y bien definidas, y un volumen significativo de nulos en algunas columnas numéricas clave, lo que es habitual en datasets de campañas telefónicas masivas.
+### 2. Métricas por categoría / marca / departamento
+
+#### Categorías (Top 10 por ingreso)
+Las categorías con mayor ingreso son prendas de precio medio-alto:
+
+- outerwear & coats — 1.30M  
+- jeans — 1.25M  
+- sweaters — 0.84M  
+- suits & sport coats — 0.66M  
+- fashion hoodies & sweatshirts — 0.64M  
+- swim — 0.64M  
+- sleep & lounge — 0.53M  
+- shorts — 0.51M  
+- tops & tees — 0.49M  
+- dresses — 0.46M  
+
+#### Análisis
+- El top está dominado por **categorías de invierno y prendas premium**, lo que eleva el ingreso.  
+- Las categorías de menor precio (tees, shorts) aparecen por volumen, no por ticket.  
+- La distribución es **equilibrada**, sin una categoría que concentre más del 15% del total.
+
+---
+
+#### Marcas (Top 10 por ingreso)
+
+- calvin klein — 208k  
+- diesel — 199k  
+- 7 for all mankind — 188k  
+- carhartt — 183k  
+- true religion — 180k  
+- tommy hilfiger — 126k  
+- volcom — 106k  
+- quiksilver — 105k  
+- columbia — 103k  
+- the north face — 101k  
+
+#### Análisis
+- Las marcas premium de denim y moda casual lideran el ingreso.  
+- No hay una marca dominante: el top 10 está muy repartido.  
+- La presencia de marcas técnicas (Columbia, The North Face) indica variedad de catálogo.
+
+---
+
+#### Departamentos
+
+- men — 5.73M  
+- women — 5.09M  
+
+#### Análisis
+- El reparto es casi 50/50, lo que indica un catálogo equilibrado.  
+- El ligero liderazgo de **men** coincide con las categorías top (coats, jeans, sweaters).
+
+---
+
+### 3. Métricas de estado del pedido — flujo operativo
+
+- Cancelados: 14.86%  
+- Devueltos: 10.01%  
+- Completados: 25.04%  
+- Enviados: 30.01%  
+- Procesando: 20.09%  
+
+#### Análisis
+- La tasa de cancelación es **alta**, típica de datasets sintéticos.  
+- La tasa de devolución del 10% es **realista** para moda.  
+- Solo 1 de cada 4 pedidos llega a *complete*, lo que confirma que el dataset simula un flujo operativo parcial.  
+- La distribución de estados es coherente con un pipeline de datos no finalizado.
+
+---
+
+### 4. Métricas temporales
+
+- Envío promedio: 1 día  
+- Entrega promedio: 2 días  
+
+#### Análisis
+- Los tiempos son **demasiado buenos** para ser reales → refuerza que el dataset es sintético.  
+- La relación envío/entrega es consistente: 1 día para procesar + 1 día adicional para entregar.
+
+---
+
+### 5. Productos destacados — insights comerciales
+
+| product_id | unidades_vendidas | name |
+|-----------:|-------------------:|------|
+| 21842 | 19 | haggar men's tonal stria pleat front cuff dress pant |
+| 18795 | 18 | life is good men's king of the grill short sleeve tee |
+| 17045 | 17 | bayside apparel adult usa-made long-sleeve pocket t-shirt. 8100 |
+| 25209 | 16 | thorlo men's lt walking mini crew sock |
+| 23873 | 16 | the newport collection pack-n-go pullover jacket from charles river apparel |
+| 22473 | 16 | wrinkle-free cotton poplin comfort-waist pants / plain sage |
+| 23675 | 16 | wrangler rugged wear men's unlined denim jacket antique navy |
+| 24502 | 16 | wigwam men's at work 3-pack socks |
+| 25547 | 16 | michael kors men's 3 pack brief |
+| 25204 | 16 | timberland men's crew socks |
+
+#### Análisis
+- Las unidades vendidas son **bajas** porque el dataset es sintético y distribuye ventas de forma plana.  
+- El top está dominado por **ropa masculina**, coherente con las métricas por departamento.  
+- No hay un producto estrella: todos están entre 16 y 19 unidades, lo que confirma la naturaleza generada del dataset.
+
+---
+
+### Conclusión general
+
+- El dataset es **coherente internamente**, pero claramente **sintético**.  
+- Las ventas están bien distribuidas entre categorías, marcas y departamentos.  
+- Los estados del pedido y los tiempos logísticos confirman que no es un dataset real.  
+- Las unidades por producto son bajas y muy homogéneas, lo que refuerza la estructura sintética.  
+- Aun así, las métricas permiten construir un dashboard comercial funcional y consistente.
 
 ---
 ## Informe explicativo del análisis.
-### Distribuciones numéricas
-- **Edad (age)**: mayor concentración en 26–45 años (≈59%), con un 11,91% de valores nulos.
-- **Duración de llamada (duration)**: el 81% de las llamadas dura entre 61 y 600 segundos.
-
-### Distribuciones categóricas
-- **job**: predominan `admin.` (25,29%), `blue-collar` (22,45%) y `technician` (16,34%).
-- **marital**: `MARRIED` es el estado más frecuente (60,46%).
-- **education**: destaca `university.degree` (29,59%).
-- **contact**: `cellular` es el canal principal (63,71%).
-- **y**: la conversión global es del **11,27%**.
 
 ---
-
-
-
