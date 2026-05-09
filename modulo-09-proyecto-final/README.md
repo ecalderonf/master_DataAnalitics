@@ -13,6 +13,8 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre siete fuent
 
 El objetivo es contar con una base sólida para construir un Dashboard de performance comercial, con datos limpios, relaciones correctas y un entendimiento claro de las áreas donde existen anomalías que deben considerarse en la interpretación.
 
+Fuente: https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset
+
 ---
 ## Stack tecnológico
 
