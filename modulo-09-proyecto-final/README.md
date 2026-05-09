@@ -46,18 +46,24 @@ Fuente: https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-
 .
 ├── data
 │   ├── raw
-│   │   ├── bank-additional.csv
-│   │   └── customer.xlsx
+│   │   ├── distribution_centers.json
+│   │   ├── events.csv
+│   │   ├── inventory_items.csv
+│   │   ├── order_items.csv
+│   │   ├── orders.csv
+│   │   ├── products.json
+│   │   └── users.xlsx
 │   └── processed
-│       ├── bank-additional-processed.csv
-│       └── customer-processed.xlsx
+│       ├── order_items.csv
+│       ├── orders.csv
+│       └── products.xlsx
 ├── reports
 │   ├── img
-│   │   ├── bank_metricas.png
-│   │   └── customer_metricas.png
-│   └── informe_EDA.html
+│   │   ├── imagen.png
+│   │   └── imagen.png
+│   └── ecalderonf_proyecto_final.xlsx
 └── src
-    ├── ecalderonf_proyecto_final.ipynb
+    └── ecalderonf_proyecto_final.ipynb
 
 
 ```
