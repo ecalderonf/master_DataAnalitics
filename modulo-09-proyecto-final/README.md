@@ -252,7 +252,7 @@ No hay duplicados.
 ---
 ## Análisis estadístico de los datos.
 
-### 1. Métricas de ventas — rendimiento comercial
+### 🟦 1. Métricas de ventas — rendimiento comercial
 
 Los datos muestran un negocio con **volumen alto de pedidos** (125k) pero con **ventas por unidad relativamente bajas**, típico de un catálogo amplio y muy fragmentado.
 
@@ -268,7 +268,7 @@ Los datos muestran un negocio con **volumen alto de pedidos** (125k) pero con **
 
 ---
 
-### 2. Métricas por categoría / marca / departamento
+### 🟧 2. Métricas por categoría / marca / departamento
 
 #### Categorías (Top 10 por ingreso)
 Las categorías con mayor ingreso son prendas de precio medio-alto:
@@ -322,7 +322,7 @@ Las categorías con mayor ingreso son prendas de precio medio-alto:
 
 ---
 
-### 3. Métricas de estado del pedido — flujo operativo
+### 🟩 3. Métricas de estado del pedido — flujo operativo
 
 - Cancelados: 14.86%  
 - Devueltos: 10.01%  
@@ -338,7 +338,7 @@ Las categorías con mayor ingreso son prendas de precio medio-alto:
 
 ---
 
-### 4. Métricas temporales
+### 🟥 4. Métricas temporales
 
 - Envío promedio: 1 día  
 - Entrega promedio: 2 días  
@@ -349,7 +349,7 @@ Las categorías con mayor ingreso son prendas de precio medio-alto:
 
 ---
 
-### 5. Productos destacados — insights comerciales
+### 🟨 5. Productos destacados — insights comerciales
 
 | product_id | unidades_vendidas | name |
 |-----------:|-------------------:|------|
